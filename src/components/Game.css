@@ -1,0 +1,150 @@
+@media only screen and (min-width: 0px) and (max-width: 1280px) {
+  .game h1 {
+    font-size: 1em;
+  }
+
+  .points .ab {
+    color: aqua;
+    font-weight: bold;
+    font-size: 1em;
+  }
+
+  .points span {
+    font-weight: bold;
+    font-size: 1em;
+  }
+
+  .tip span {
+    color: aquamarine;
+  }
+
+  .wordContainer {
+    margin: 0 0 1em 0;
+    padding: 0.7em;
+    border: 3px solid aquamarine;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 50px;
+  }
+
+  .letter,
+  .blankSquare {
+    font-size: 30px;
+    line-height: 1.2;
+    border: 1.5px solid #000;
+    height: 40px;
+    width: 38px;
+    text-transform: uppercase;
+    background-color: #fff;
+    color: #000;
+    font-weight: bold;
+  }
+
+  .letterContainer form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .letterContainer input {
+    height: 40px;
+    width: 40px;
+    font-size: 1em;
+    text-align: center;
+    margin-right: 1em;
+    border: 3px solid aquamarine;
+    border-radius: 10px;
+  }
+
+  .letterContainer input:focus {
+    outline: none;
+  }
+
+  .invisibleSquare {
+    font-size: 30px;
+    line-height: 1.2;
+    height: 40px;
+    width: 38px;
+    text-transform: uppercase;
+    font-weight: bold;
+    opacity: 0;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .game h1 {
+    font-size: 2.5em;
+  }
+
+  .points .ab {
+    color: aqua;
+    font-weight: bold;
+    font-size: 1em;
+  }
+
+  .points span {
+    font-weight: bold;
+    font-size: 2em;
+  }
+
+  .tip span {
+    color: aquamarine;
+  }
+
+  .wordContainer {
+    margin: 1.5em;
+    padding: 0.7em;
+    border: 15px solid aquamarine;
+    border-radius: 15px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .letter,
+  .blankSquare {
+    font-size: 60px;
+    line-height: 1.2;
+    border: 3px solid #000;
+    height: 75px;
+    width: 75px;
+    text-transform: uppercase;
+    background-color: #fff;
+    color: #000;
+    font-weight: bold;
+  }
+
+  .letterContainer form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .letterContainer input {
+    height: 50px;
+    width: 50px;
+    font-size: 2em;
+    text-align: center;
+    margin-right: 1em;
+    border: 5px solid aquamarine;
+    border-radius: 10px;
+  }
+
+  .letterContainer input:focus {
+    outline: none;
+  }
+
+  .invisibleSquare {
+    font-size: 60px;
+    line-height: 1.2;
+    border: 3px solid #000;
+    height: 75px;
+    width: 75px;
+    text-transform: uppercase;
+    background-color: #fff;
+    color: #000;
+    font-weight: bold;
+    opacity: 0;
+  }
+}

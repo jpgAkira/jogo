@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+html,
+body {
+  height: 100%;
+}
+
+* {
+  font-family: "Ubuntu mono", monospace;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: url(../public/sunny-tropical-landscape.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+}
+
+button {
+  background-color: #03f934;
+  color: #ddd;
+  padding: 0 45px;
+  border: 3px solid #039e22;
+  border-radius: 25px;
+  height: 50px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.5em;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+button:hover {
+  background-color: #059c23;
+  color: #ccc;
+}
