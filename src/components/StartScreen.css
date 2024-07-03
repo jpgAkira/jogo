@@ -4,7 +4,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    height: 100vh;
+    height: 100dvh;
     width: 100%;
   }
 
@@ -15,9 +15,9 @@
   }
 
   .start h1 {
-    font-size: 5em;
+    font-size: 3em;
     margin: 0 0 24px 0;
-    color: rgb(1, 192, 1);
+    color: #2db12d;
   }
 
   .start h2 {
@@ -46,7 +46,7 @@
   .start h1 {
     font-size: 7em;
     margin: 0 0 24px 0;
-    color: rgb(1, 192, 1);
+    color: #2db12d;
   }
 
   .start h2 {

@@ -36,11 +36,11 @@ const Game = ({
           Pontuação: <span className="ab">{score}</span>
         </span>
       </p>
-      <h1>Adivinhe a palavra:</h1>
+
       <h3 className="tip">
         Dica sobre a palavra: <span>{pickedCategory}</span>
       </h3>
-      <p>Você ainda tem {guesses} tentativa(s).</p>
+      <p className="guesses">Você ainda tem {guesses} tentativa(s).</p>
       <div className="wordContainer">
         {letters.map((letter, i) =>
           guessedLetters.includes(letter) ? (
@@ -67,7 +67,7 @@ const Game = ({
             value={letter}
             ref={letterInputRef}
           />
-          <button>Jogar!</button>
+          <button>Tentar</button>
         </form>
       </div>
       <div className="wrongLettersContainer">

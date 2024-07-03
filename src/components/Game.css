@@ -1,4 +1,4 @@
-@media only screen and (min-width: 0px) and (max-width: 1280px) {
+@media only screen and (min-width: 320px) and (max-width: 768px) {
   .game h1 {
     font-size: 1em;
   }
@@ -14,28 +14,127 @@
     font-size: 1em;
   }
 
+  .tip {
+    display: flex;
+    flex-direction: column;
+    font-size: 1em;
+  }
+
   .tip span {
     color: aquamarine;
   }
 
   .wordContainer {
-    margin: 0 0 1em 0;
-    padding: 0.7em;
-    border: 3px solid aquamarine;
     border-radius: 15px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    height: 30px;
+    margin-bottom: 10px;
+  }
+
+  .letter,
+  .blankSquare {
+    font-size: 24px;
+    line-height: 1.2;
+    border: 1.5px solid #000;
+    height: 24px;
+    width: 24px;
+    text-transform: uppercase;
+    background-color: #fff;
+    color: #000;
+    font-weight: bold;
+  }
+
+  .letterContainer form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .letterContainer input {
+    height: 24px;
+    width: 24px;
+    font-size: 1em;
+    text-align: center;
+    margin-right: 0.7em;
+    border: 3px solid #04be80;
+    border-radius: 10px;
+  }
+
+  .letterContainer input:focus {
+    outline: none;
+  }
+
+  .invisibleSquare {
+    font-size: 24px;
+    line-height: 1.2;
+    height: 24px;
+    width: 24px;
+    text-transform: uppercase;
+    font-weight: bold;
+    opacity: 0;
+  }
+
+  .wrongLettersContainer {
+    width: 100%;
+  }
+
+  .wrongLettersContainer p {
+    margin: 5px 0 5px 0;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1280px) {
+  .game h1 {
+    font-size: 1em;
+  }
+
+  .points .ab {
+    color: aqua;
+    font-weight: bold;
+    font-size: 1em;
+  }
+
+  .points {
+    margin: 12px 0 0 0;
+  }
+
+  .guesses {
+    margin: 5px;
+  }
+
+  .points span {
+    font-weight: bold;
+    font-size: 1em;
+  }
+
+  .tip {
+    margin: 0;
+  }
+
+  .tip span {
+    color: aquamarine;
+  }
+
+  .wordContainer {
+    margin: 0 0 0.5em 0;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border: 5px solid #04be80;
+    padding: 0.5em;
     height: 50px;
   }
 
   .letter,
   .blankSquare {
-    font-size: 30px;
-    line-height: 1.2;
+    font-size: 40px;
+    line-height: 1.1;
     border: 1.5px solid #000;
     height: 40px;
-    width: 38px;
+    width: 40px;
     text-transform: uppercase;
     background-color: #fff;
     color: #000;
@@ -54,7 +153,8 @@
     font-size: 1em;
     text-align: center;
     margin-right: 1em;
-    border: 3px solid aquamarine;
+    font-size: 30px;
+    border: 3px solid #04be80;
     border-radius: 10px;
   }
 
@@ -63,13 +163,24 @@
   }
 
   .invisibleSquare {
-    font-size: 30px;
+    font-size: 48px;
     line-height: 1.2;
-    height: 40px;
-    width: 38px;
+    height: 48px;
+    width: 48px;
     text-transform: uppercase;
     font-weight: bold;
     opacity: 0;
+  }
+
+  .wrongLettersContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .wrongLettersContainer p {
+    margin-right: 5px;
   }
 }
 
@@ -96,7 +207,7 @@
   .wordContainer {
     margin: 1.5em;
     padding: 0.7em;
-    border: 15px solid aquamarine;
+    border: 15px solid #04be80;
     border-radius: 15px;
     display: flex;
     flex-wrap: wrap;
@@ -127,7 +238,7 @@
     font-size: 2em;
     text-align: center;
     margin-right: 1em;
-    border: 5px solid aquamarine;
+    border: 5px solid #04be80;
     border-radius: 10px;
   }
 
